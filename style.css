@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #9ec7ce, #81b391);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.calculator {
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    padding-top: 15px;
+}
+
+table td {
+    display: inline-block;
+}
+
+.btn {
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(131, 129, 129);
+    color: rgb(240, 238, 238);
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+.ac {
+    font-size: large;
+    background-color: #02ddbca9;
+}
+
+.ac:hover{
+    background-color: #02ddbcd2;
+}
+
+.especial {
+    background-color:#02ddbcd2;
+}
+
+.especial:hover{
+    background-color: #02ddbca9;
+}
+
+.igual {
+    background-color: #02ddbca9;
+}
+
+.igual:hover {
+    background-color: #02ddbcd2;
+}
+
+.btn-del {
+    background-color: rgb(54, 53, 53);
+}
+
+.btn-del:hover{
+    background-color:rgb(66, 66, 66);
+}
+
+
+.result{
+    height: 100px;
+    background-color: #03473dc4;
+    color:rgb(240, 238, 238);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 33px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    word-wrap: break-word;
+    overflow: hidden;
+    word-break: break-all
+}
+
